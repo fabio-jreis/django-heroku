@@ -101,6 +101,8 @@ Remember to grab the address of the app in this point
 * git commit -m 'Configuring the app'
 * git push heroku master --force
 
+obs: another branch: git push heroku develop:master
+
 ## Creating the data base
 * heroku run python3 manage.py migrate
 
